@@ -1,0 +1,9 @@
+
+[package]
+name = "List"
+version = "0.1.0"
+authors = ["Saeed Safi <safi.saeed1999@gamil.com>"]
+edition = "2021"
+
+
+[dependencies]
