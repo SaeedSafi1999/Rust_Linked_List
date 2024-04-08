@@ -1,7 +1,7 @@
 
 [package]
 name = "easy_linked_list"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["Saeed Safi <safi.saeed1999@gamil.com>"]
 edition = "2021"
 description = "easy linked list is easy to work"
