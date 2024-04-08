@@ -11,10 +11,40 @@ impl<T> Node<T> {
     }
 }
 
+///this is unsize generic list for stored any type
+///
+///
+/// # Examples
+///
+/// ```
+///#[derive(Debug)] //struct example
+///struct Person {
+///    name: String,
+///    age: i32,
+///}
+///let mut persons = List::new(); //declare package
+///
+///persons.add(Person { name: "saeed".to_string(), age: 25 });// set element
+/// ```
 pub struct List<T> {
     head: Option<Box<Node<T>>>,
 }
 
+///this is unsize generic list for stored any type
+///
+///
+/// # Examples
+///
+/// ```
+///#[derive(Debug)] //struct example
+///struct Person {
+///    name: String,
+///    age: i32,
+///}
+///let mut persons = List::new(); //declare package
+///
+///persons.add(Person { name: "saeed".to_string(), age: 25 });// set element
+/// ```
 impl<T> List<T> {
     pub fn new() -> Self {
         List { head: None }
