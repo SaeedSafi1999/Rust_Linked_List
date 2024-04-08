@@ -4,6 +4,6 @@ name = "linked_list"
 version = "0.1.0"
 authors = ["Saeed Safi <safi.saeed1999@gamil.com>"]
 edition = "2021"
-
+description = "linked list is easy to work"
 
 [dependencies]
