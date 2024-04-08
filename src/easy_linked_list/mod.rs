@@ -1,11 +1,11 @@
 
 
-struct Node<T> {
+pub struct Node<T> {
     data: T,
     next: Option<Box<Node<T>>>,
 }
 
-impl<T> Node<T> {
+pub impl<T> Node<T> {
     fn new(data: T) -> Self {
         Node { data, next: None }
     }
@@ -15,7 +15,7 @@ pub struct List<T> {
     head: Option<Box<Node<T>>>,
 }
 
-impl<T> List<T> {
+pub impl<T> List<T> {
     pub fn new() -> Self {
         List { head: None }
     }
